@@ -8,7 +8,7 @@ parts:
     chapters:
       - file: mech/kinematics
       - file: mech/dynamics
-      - file: mech/advanced
+      - file: mech/advanced/index
     sections:
       - file: mech/advanced/rotation
       - file: mech/advanced/fluid_mechanics
