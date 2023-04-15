@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Mechanics
+    chapters:
+      - file: mech/kinematics
+      - file: mech/dynamics
+      - file: mech/advanced
+    sections:
+      - file: mech/advanced/rotation
+      - file: mech/advanced/fluid_mechanics
+      - file: mech/advanced/wave_mechanics
+  - caption: Electromagnetism
+    chapters:
+      - file: em/electrostatics
+      - file: em/electric_circuits
