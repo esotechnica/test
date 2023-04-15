@@ -1,8 +1,8 @@
-# Rotation
+# Advanced topics
 
-Here are my notes on rotational kinematics and dynamics
+Here are my notes on some advanced topics
 
-## What is rotation?
+## What is blah blah?
 
 Roles and directives are two of the most powerful tools in Jupyter Book. They
 are kind of like functions, but written in a markup language. They both
