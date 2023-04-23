@@ -23,3 +23,13 @@ Rhind Mathematical Papyrus, one of the most important archaeological finds of Eg
 Inductive reasoning is the basis of modern science. It relies on observation of phenomena to support a particular hypothesis. Europeans up until the end of the <sup>17th</sup> century had come to the conclusion, via inductive reasoning, that all swans were white. This was not an unreasonable conclusion to make. All swans observed thus far by Europeans, since the beginning of history, were white. But the fragility of inductive reasoning is that one counterexample will bring the entire hypothesis crashing down instantly. This is, of course, what happened with the ‘white swan’ theory, when black swans were discovered in Australia. At best, inductive reasoning is a level of confidence, a probability, but never a certainty.
 
 But what if you could develop a system of reasoning that ensured you could reach an unassailable conclusion? One in which you could prove a hypothesis (known in mathematics as a conjecture) to be true? And it would forever be true, and had always been true? And it would not be possible ever to disprove it? Such a system, known as *deductive reasoning*, was developed over time by the ancient Greeks. A system of deductive reasoning is defined by its *rules of inference*. In essence, a rule of inference generates a new truth from previously established truths. The previously established truths form the *premises* of the rule, and the newly generated truth is known as the *conclusion*.
+
+To give an example, let’s examine the rule of inference known as *modus ponens*. This rule encapsulates a simple deduction that seems to require no justification. It is sometimes written like this:
+
+\[{ \begin{array}{l} \text{If A, then B}\\ \text{A}\\ \hline \text{B} \end{array} }\]
+
+The statements above the line represent the premises, and the statement below the line is the conclusion. If we assert that the premises are true, then the conclusion must be true. The variables \(A\) and \(B\) can be substituted with any logical statement; a statement that must be either true or false. Let \(A\) be the statement &#8220;It is raining&#8221; and \(B\) be the statement &#8220;The grass is wet&#8221;. We then get:
+
+\[{ \begin{array}{l} \text{If it is raining, then the grass is wet}\\ \text{It is raining}\\ \hline \text{The grass is wet} \end{array} }\]
+
+The power of deductive reasoning comes from being able to chain together a series of inferences into a *deductive argument*. That is, the conclusion of one inference becomes a premise of the next inference in the chain. In the next article of this series, a real deductive system known as *natural deduction* will be explored.
