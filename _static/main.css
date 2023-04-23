@@ -1,0 +1,65 @@
+/* Style of first paragraph in article, starts with a drop-cap */
+.start-para p:not(:focus):first-letter {
+    float: left;
+    font-size: 4em;
+    line-height: .68;
+    font-weight: 100;
+    margin: 0.05em 0.1em 0 0;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.bq {
+    border-left: 0.25em solid;
+    margin: 0 0 1.75em;
+    padding-left: 1em;
+    border-left-color: rgb(104,104,104);
+    color: rgb(104,104,104);
+    font-style: italic;
+    font-size: 1.1875rem;
+    line-height: 1.47;
+}
+
+.bq cite {
+    color: var(--pst-color-text-base);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.75;
+    position: relative;
+    font-style: normal;
+}
+.bq cite:before {
+    content: "\2014\00a0";
+}
+
+@media screen and (min-width: 400px)
+{
+
+    .fig figure {
+        margin-bottom: 1.75em;
+        max-width: 50%;
+    }
+
+    .fig figure img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .fig figure figcaption {
+        color: #686868;
+        font-size: 0.82rem;
+        font-style: italic;
+        line-height: 1.62;
+        padding-top: 0.54em;   
+    }
+
+    .fig-right figure {
+        float: right;
+        margin: 0.375em 0 1.75em 1.75em;
+    }
+
+    .fig-left figure {
+        float: left;
+        margin: 0.375em 1.75em 1.75em 0;
+    }
+}

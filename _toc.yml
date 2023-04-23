@@ -21,3 +21,6 @@ parts:
   chapters:
   - file: em/electrostatics
   - file: em/circuits
+- caption: Mathematics
+  chapters:
+  - file: math/what_is_math
